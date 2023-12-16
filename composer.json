@@ -2,19 +2,17 @@
     "name": "kenisty/backend-configs",
     "description": "Configuration for backend using PHP and Symfony",
     "type": "library",
-    "keywords": ["dev"],
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.41",
-        "phpmd/phpmd": "^2.14",
-        "phpstan/phpstan": "^1.10"
-    },
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Pola Eskandar",
             "email": "pola.eskandar@codingstreamer.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.41",
+        "phpmd/phpmd": "^2.14",
+        "phpstan/phpstan": "^1.10"
+    }
 }
